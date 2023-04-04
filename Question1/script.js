@@ -10,7 +10,10 @@ class LikeButton extends React.Component {
 
     render() {
         if (this.state.liked) {
-            return 'You liked this.';
+            return e('img', {
+                src: 'a1.jpg',
+                alt: 'Liked!',
+            });
         }
 
         return e(
@@ -20,6 +23,7 @@ class LikeButton extends React.Component {
         );
     }
 }
+
 
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
