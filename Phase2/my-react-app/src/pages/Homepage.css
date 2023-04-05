@@ -1,0 +1,14 @@
+.banner {
+
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.banner1{
+    height: 500px;
+    width: 1000px;
+}
+
+.home {
+    padding: 20px;
+}
