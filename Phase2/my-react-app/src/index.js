@@ -7,6 +7,7 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ContactUs from "./pages/ContactUs";
 import ProductPage from "./pages/ProductPage";
 
+
 import Layout from "./pages/Layout";
 export default function App() {
     return (

@@ -1,0 +1,135 @@
+.about-us {
+    max-width: 800px;
+    margin: 18px auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.about-us-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #d35400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-us-intro {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.about-us-section {
+    margin-bottom: 30px;
+}
+
+.about-us-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #d35400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-us-section p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+
+
+.about-us-section li {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.about-us-section strong {
+    font-weight: 700;
+    color: #d35400;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-us {
+        padding: 20px;
+    }
+
+    .about-us-header h1 {
+        font-size: 30px;
+    }
+
+    .about-us-intro {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-us-section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .about-us-section p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .about-us-section ul {
+        margin-left: 20px;
+        list-style: disc;
+    }
+
+    .about-us-section li {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+}
+
+.about-us-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.about-us-footer p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    margin-right: 20px;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #555;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.social-media-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
