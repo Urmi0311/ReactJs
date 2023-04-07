@@ -5,25 +5,21 @@ const e = React.createElement;
 class LikeButton extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { liked: false };
+        this.state = {liked: false};
     }
 
     render() {
         if (this.state.liked) {
-            return e('img', {
-                src: 'a1.jpg',
-                alt: 'Liked!',
-            });
+            return 'You have liked!';
         }
 
         return e(
             'button',
-            { onClick: () => this.setState({ liked: true }) },
+            {onClick: () => this.setState({liked: true})},
             'Click this to like the picture'
         );
     }
 }
-
 
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
