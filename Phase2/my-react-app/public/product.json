@@ -3,58 +3,87 @@
     "id": 1,
     "name": "LAKMÉ 9 TO 5 CC MOUSSE",
     "description": "The LAKMÉ 9 TO 5 CC MOUSSE is a lightweight, color-correcting mousse that provides medium coverage for a natural, flawless finish.",
-    ",price": "$408",
-    "image": "image2.jpg"
+    "price": "408",
+    "image": "Images/image2.jpg"
 
   },
   {
     "id": 2,
     "name": "9TO5 PRIMER + MATTE LIPSTICK TRIO",
-    "description": "The 9TO5 PRIMER + MATTE LIPSTICK TRIO is a set of three highly pigmented, velvety matte lipsticks that come with a primer to ensure a long-lasting and flawless application. ",
-    "price": "Rs 1099",
-    "image": "image1.jpg"
+    "description": "The 9TO5 PRIMER + MATTE LIPSTICK TRIO is a set of three highly pigmented, velvety matte lipsticks that come with a primer",
+    "price": "1099",
+    "image": "Images/image1.jpg"
 
   },
   {
     "id": 3,
     "name": "REFRESH & GLOW KIT",
-    "description": "The REFRESH & GLOW KIT is a skincare set designed to revitalize and brighten your complexion. It includes a gentle cleansing foam, a hydrating toner, and a brightening serum.",
-    "price": "Rs 1599",
-    "image": "image3.jpg"
+    "description": "The REFRESH & GLOW KIT is a skincare set designed to revitalize and brighten your complexion. It includes a gentle cleansing foam",
+    "price": "1599",
+    "image": "Images/image3.jpg"
   },
   {
     "id": 4,
     "name": "LAKMÉ ABSOLUTE SPOTLIGHT EYESHADOW PALETTE",
-    "description": "The Lakmé Absolute Spotlight Eyeshadow Palette is a versatile and high-quality eyeshadow palette that features 9 stunning shades with a mix of matte, shimmer, and metallic finishes.",
-    "price": "Rs 498",
-    "image": "image4.jpg"
+    "description": "The Lakmé Absolute Spotlight Eyeshadow Palette is a versatile and high-quality eyeshadow palette that features 9 stunning shades.",
+    "price": "498",
+    "image": "Images/image4.jpg"
   },
   {
     "id": 5,
     "name": "LAKMÉ 4 STEP GLOWING SKIN COMBO",
     "description": "The Lakmé 4 Step Glowing Skin Combo is a complete skincare routine that includes a face wash, scrub, mask, and moisturizer.",
-    "image": "image5.jpg",
-    "price": "Rs 999"
+    "image": "Images/image5.jpg",
+    "price": "999"
   },
   {
-    "id": 2,
-    "name": "9TO5 PRIMER + MATTE LIPSTICK TRIO",
-    "description": "The 9TO5 PRIMER + MATTE LIPSTICK TRIO is a set of three highly pigmented, velvety matte lipsticks that come with a primer to ensure a long-lasting and flawless application. The set includes three shades that are perfect for everyday wear and are enriched with vitamin E to keep your lips moisturized and nourished. The lipsticks are also transfer-resistant, preventing smudging or transfer onto clothes or surfaces.",
-    "price": "Rs 1099",
-    "image": "image1.jpg"
+    "id": 6,
+    "name": "EYECONIC SHOWSTOPPER SET",
+    "description": "Unleash your inner beauty with this all-in-one makeup collection. From bold eyeshadows to silky blushes and luscious lip colors.",
+    "price": "1499",
+    "image": "Images/image6.jpg"
   },
   {
-    "id": 3,
-    "name": "REFRESH & GLOW KIT",
-    "description": "The REFRESH & GLOW KIT is a skincare set designed to revitalize and brighten your complexion. It includes a gentle cleansing foam, a hydrating toner, and a brightening serum. The products are formulated with natural ingredients like lemon, green tea, and vitamin C to help even out skin tone, reduce dark spots, and improve skin texture. The kit is suitable for all skin types and is ideal for those who want to achieve a radiant and refreshed look.",
-    "price": "Rs 1599",
-    "image": "image3.jpg"
+    "id": 7,
+    "name": "LAKMÉ ABSOLUTE GEL STYLIST NAIL COLOR VALUE SET",
+    "description": "Lakmé Absolute Gel Stylist Nail Color Value Set: Get salon-like gel finish on your nails at home with this long-lasting.",
+    "price": "750",
+    "image": "Images/image7.jpg"
   },
   {
-    "id": 4,
-    "name": "REFRESH & GLOW KIT",
-    "description": "The REFRESH & GLOW KIT is a skincare set designed to revitalize and brighten your complexion. It includes a gentle cleansing foam, a hydrating toner, and a brightening serum. The products are formulated with natural ingredients like lemon, green tea, and vitamin C to help even out skin tone, reduce dark spots, and improve skin texture. The kit is suitable for all skin types and is ideal for those who want to achieve a radiant and refreshed look.",
-    "price": "Rs 1599",
-    "image": "image3.jpg"
+    "id": 8,
+    "name": "LAKMÉ BLUSH & GLOW STRAWBERRY FRESHNESS GEL FACE WASH",
+    "description": "Get a burst of strawberry freshness with this gel face wash that gently cleanses your skin, leaving it refreshed and glowing.",
+    "price": "120",
+    "image": "Images/image8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "FLAWLESS MINI LIQUID LIP SET",
+    "description": "The FLAWLESS MINI LIQUID LIP SET is a collection of 50 small-sized liquid lipsticks in various shades and finishes.",
+    "price": "999",
+    "image": "Images/image9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "RESTORE & REVITALISE SET",
+    "description": "The RESTORE & REVITALISE SET is a skincare kit that includes products designed to rejuvenate and revitalize the skin.",
+    "price": "1799",
+    "image": "Images/image10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "RUNWAY PERFECT SET",
+    "description": "The RUNWAY PERFECT SET is a makeup kit that typically includes a selection of products designed to create a flawless, high-fashion look.",
+    "price": "1499",
+    "image": "Images/image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "LAKMÉ EYECONIC KAJAL TWIN PACK",
+    "description": "Kajal is a traditional eye makeup product used in South Asian countries to enhance and define the eyes.",
+    "price": "308",
+    "image": "Images/image12.jpg"
   }
 ]
+

@@ -1,0 +1,49 @@
+.billing-page{
+    background-color: yellow;
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 21px auto;
+    padding: 20px;
+    background-color: #F4F4F4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}

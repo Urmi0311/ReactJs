@@ -1,19 +1,38 @@
-import React from 'react';
-import bannerImage from './lakme.jpg';
+import React, {useEffect, useState} from 'react';
 import './Homepage.css';
+import SimpleImageSlider from "react-simple-image-slider";
+import Footer from '../components/Footer';
+export default function App() {
+    const sliderImages = [
+        {
+            url:"Images/image13.jpg",
+        },
+        {
+            url:"Images/image14.jpg",
+        },
+        {
+            url:"Images/image15.jpg",
+        },
+        {
+            url:"Images/image16.jpg",
+        },
+    ];
 
-const Home = () => {
     return (
         <div className="home">
             <div className="banner">
-                <img className="banner1" src={bannerImage} alt="Banner" />
+                <SimpleImageSlider
+                    width={1408}
+                    height={500}
+                    images={sliderImages}
+                    showNavs={true}
+                    slideDuration={0.8}
+                    autoPlay={true}
+
+                />
+
             </div>
-            <h1>Welcome to my website!</h1>
-            <p>This is my home page.</p>
+            <Footer />
         </div>
     );
-};
-
-export default Home;
-
-
+}

@@ -5,12 +5,8 @@
     height: 500px;
 }
 
-.banner1 {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-}
+
 
 .home {
-    padding: 20px;
+    margin: 8px;
 }

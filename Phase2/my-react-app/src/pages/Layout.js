@@ -2,6 +2,7 @@ import {Outlet, Link} from "react-router-dom";
 import './Layout.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
+
 const Layout = () => {
     return (
         <>

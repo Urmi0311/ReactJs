@@ -6,9 +6,13 @@ import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ContactUs from "./pages/ContactUs";
 import ProductPage from "./pages/ProductPage";
+import Payment from "./components/Payment";
+import Billing from "./components/Billing";
+import Footer from "./components/Footer";
 
 
 import Layout from "./pages/Layout";
+import React from "react";
 export default function App() {
     return (
         <BrowserRouter>
@@ -20,6 +24,10 @@ export default function App() {
                     <Route path="CheckoutPage" element={< CheckoutPage/>} />
                     <Route path="ContactUs" element={< ContactUs/>} />
                     <Route path="ProductPage" element={< ProductPage/>} />
+                    <Route path="Payment" element={< Payment/>} />
+                    <Route path="Billing" element={< Billing/>} />
+                    <Route path="Footer" element={< Footer/>} />
+
                 </Route>
             </Routes>
         </BrowserRouter>
