@@ -1,49 +1,48 @@
-.billing-page{
-    background-color: yellow;
+.containers1 label{
+    display: block;
+    width: 90%;
+    margin: 3% 0% 0% 3%;
+    font-size: larger;
+
+}
+.billings-page img{
+    width: 98%;
+    position: absolute;
+}
+
+.containers1{
+    position: relative;
+   
+    width: 40%;
+ 
+    font-size: larger;
+    margin: 2% 0% 0% 29% ;
+}
+.containers1 input{
     width: 100%;
-    margin: 0% 0% 0% 0%;
+    box-shadow: gray;
+    border-radius: 20px;
+    font-size: large;
+}
+.containers1 button{
+    padding: 1%;
+    margin: 3%;
+    font-size: larger;
+    width: 160px;
+    background-color: #282828;
+    color: #cccccc;
+    margin-left: 33%;
+    border-radius: inherit;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    margin: 21px auto;
-    padding: 20px;
-    background-color: #F4F4F4;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.container1 button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 16px;
-}
-
-button {
-    margin-top: 20px;
-    padding: 8px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0069d9;
-}
+.containers1 fieldset{
+    box-shadow: gray;
+    border-style: groove;
+    border-radius: 20px;
+} 

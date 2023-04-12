@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-
+import React, {useState} from 'react';
 import './Billing.css';
 
-const BillingForm = () => {
+const BillingPage = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [address, setAddress] = useState('');
@@ -11,7 +10,7 @@ const BillingForm = () => {
     const [zip, setZip] = useState('');
 
     const handleInputChange = (e) => {
-        const { name, value } = e.target;
+        const {name, value} = e.target;
         let isValid = true;
 
         if (name === 'name') {
@@ -52,40 +51,42 @@ const BillingForm = () => {
         window.location.href = "/Payment";
     };
 
-    return (
-        <body className="billing-page">
-        <form onSubmit={handleSubmit} className="form-container">
+    return (<body className="billings-page">
+        <img src="Images/imageforbill.jpeg"/>
+        <form onSubmit={handleSubmit} className="containers1">
             <h2>Billing Address</h2>
+            <fieldset>
             <label>
                 Name:
-                <input type="text" name="name" value={name} onChange={handleInputChange} required />
+                <input type="text" name="name" value={name} onChange={handleInputChange} required/>
             </label>
             <label>
                 Email:
-                <input type="email" name="email" value={email} onChange={handleInputChange} required />
+                <input type="email" name="email" value={email} onChange={handleInputChange} required/>
             </label>
             <label>
                 Address:
-                <input type="text" name="address" value={address} onChange={handleInputChange} required />
+                <input type="text" name="address" value={address} onChange={handleInputChange} required/>
             </label>
             <label>
                 City:
-                <input type="text" name="city" value={city} onChange={handleInputChange} required />
+                <input type="text" name="city" value={city} onChange={handleInputChange} required/>
             </label>
             <label>
                 State:
-                <input type="text" name="state" value={state} onChange={handleInputChange} required />
+                <input type="text" name="state" value={state} onChange={handleInputChange} required/>
             </label>
             <label>
                 ZIP Code:
-                <input type="number" name="zip" value={zip} onChange={handleInputChange}  maxLength={7}
-                       minLength={5}required />
+                <input type="number" name="zip" value={zip} onChange={handleInputChange} maxLength={7}
+                       minLength={5} required/>
             </label>
             <button type="submit">Submit</button>
+            </fieldset>
         </form>
         </body>
 
     );
 };
 
-export default BillingForm;
+export default BillingPage;

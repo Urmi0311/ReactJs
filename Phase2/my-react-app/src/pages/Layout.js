@@ -1,6 +1,8 @@
 import {Outlet, Link} from "react-router-dom";
 import './Layout.css';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Footer from "../components/Footer";
+import React from "react";
 
 
 const Layout = () => {
@@ -10,7 +12,7 @@ const Layout = () => {
                 <div className="a1">
                     <p>LAKME</p>
                 </div>
-                <ul>
+                <ul >
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/AboutUs">AboutUs</Link></li>
                     <li><Link to="/CheckoutPage">Checkout</Link></li>
@@ -22,6 +24,7 @@ const Layout = () => {
             </nav>
 
             <Outlet/>
+
         </>
     )
 };

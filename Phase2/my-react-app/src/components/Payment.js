@@ -60,7 +60,7 @@ export default class PaymentForm extends React.Component {
             return <h2>Your order is successful!</h2>;
         } else {
             return (
-                <div className="pay">
+                <div className="PaymentForm">
                     {(!isSubmitted || (isSubmitted && this.state.number)) && (
                         <Cards
                             cvc={this.state.cvc}
@@ -70,7 +70,7 @@ export default class PaymentForm extends React.Component {
                             number={this.state.number}
                         />
                     )}
-                    <form onSubmit={this.handleSubmit}>
+                    <form onSubmit={this.handleSubmit} className="f1">
                         <input
                             type="tel"
                             name="number"

@@ -9,8 +9,7 @@ import ProductPage from "./pages/ProductPage";
 import Payment from "./components/Payment";
 import Billing from "./components/Billing";
 import Footer from "./components/Footer";
-
-
+import Testimonial from "./components/Testimonial";
 import Layout from "./pages/Layout";
 import React from "react";
 export default function App() {
@@ -26,8 +25,8 @@ export default function App() {
                     <Route path="ProductPage" element={< ProductPage/>} />
                     <Route path="Payment" element={< Payment/>} />
                     <Route path="Billing" element={< Billing/>} />
-                    <Route path="Footer" element={< Footer/>} />
 
+                    <Route path="Testimonial" element={< Testimonial/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
