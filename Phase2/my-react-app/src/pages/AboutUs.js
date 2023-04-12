@@ -4,11 +4,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Testimonials from '../components/Testimonials';
-
+import Footer from "../components/Footer";
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className="about">
             <div className="about-us">
                 <div className="about-us-header">
                     <h1>About Lakme</h1>
@@ -131,6 +131,7 @@ const AboutUs = () => {
             <div>
                 <Testimonials/>
             </div>
+            <Footer/>
         </div>
     );
 }

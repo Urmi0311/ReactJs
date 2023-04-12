@@ -1,30 +1,30 @@
-.containers1 label{
+.containers12 label{
     display: block;
     width: 90%;
     margin: 3% 0% 0% 3%;
     font-size: larger;
 
 }
-.billings-page img{
+.billings-page1 img{
     width: 98%;
     position: absolute;
 }
 
-.containers1{
+.containers12{
     position: relative;
-   
+
     width: 40%;
- 
+
     font-size: larger;
     margin: 2% 0% 0% 29% ;
 }
-.containers1 input{
+.containers12 input{
     width: 100%;
     box-shadow: gray;
     border-radius: 20px;
     font-size: large;
 }
-.containers1 button{
+.containers12 button{
     padding: 1%;
     margin: 3%;
     font-size: larger;
@@ -35,13 +35,13 @@
     border-radius: inherit;
 }
 
-.container1 button:hover {
+.container12 button:hover {
     transform: scale(1.1);
     transition-duration: 0.4s;
 
 }
 
-.containers1 fieldset{
+.containers12 fieldset{
     box-shadow: gray;
     border-style: groove;
     border-radius: 20px;

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import './CartPage.css';
+import Footer from "../components/Footer";
 
 function CartPage() {
     const [cart, setCart] = useState([]);
@@ -48,6 +49,7 @@ function CartPage() {
     };
 
     return (
+        <div>
         <div className="cart">
             <h2>CART</h2>
             {cart.length > 0 ? (
@@ -55,13 +57,13 @@ function CartPage() {
                     <div className="cartItems">
                         {cart.map((item, index) => (
                             <div className="cartItem" key={index}>
-                                <img src={item.image} alt={item.name} />
+                                <img src={item.image} alt={item.name}/>
                                 <div className="description">
                                     <h3>{item.name}</h3>
                                     <p>Rs {item.price}</p>
                                     <div className="countHandler">
                                         <button onClick={() => handleDecrement(index)}>-</button>
-                                        <input type="text" value={item.quantity} readOnly />
+                                        <input type="text" value={item.quantity} readOnly/>
                                         <button onClick={() => handleIncrement(index)}>+</button>
                                     </div>
                                     <p>Subtotal: Rs {subTotal(item)}</p>
@@ -78,6 +80,10 @@ function CartPage() {
             ) : (
                 <p>No items in cart.</p>
             )}
+
+        </div>
+
+                <Footer/>
 
         </div>
     );

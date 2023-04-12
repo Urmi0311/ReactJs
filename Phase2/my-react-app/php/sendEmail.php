@@ -26,13 +26,13 @@ if(isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) &&
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mailto:sneha.chechani@sigmainfo.net';
-        $mail->Password = 'Sneha@123456789';
+        $mail->Username = 'urmi.kothari@sigmainfo.net';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setfrom('sneha.chechani@sigmainfo.net', 'Admin');
-        $mail->addaddress('sneha.chechani@sigmainfo.net', '@Sneha ');
+        $mail->setfrom('urmi.kothari@sigmainfo.net', 'Admin');
+        $mail->addaddress('urmi.kothari@sigmainfo.net', 'Urmi ');
 
         //Content
         $mail->Subject = 'Mail From ' . $firstname;
