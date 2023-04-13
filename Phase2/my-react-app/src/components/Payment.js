@@ -29,11 +29,15 @@ export default class PaymentForm extends React.Component {
             return;
         }
 
-        if (name === 'cvc' && /\D/.test(value)) {
-            alert('Please enter only numbers');
-            e.target.value = value.replace(/\D/g, '');
-            return;
-        }
+        if (name === 'cvc') {
+            if (/\D/.test(value)) {
+                alert('Please enter only numbers');
+                e.target.value = value.replace(/\D/g, '');
+                return;
+            }
+     
+            }
+        
 
         this.setState({ [name]: value });
     };
@@ -45,6 +49,11 @@ export default class PaymentForm extends React.Component {
 
         if (!cvc || !expiry || !name || !number) {
             alert("Please fill out all fields");
+            return;
+        }
+
+        if (cvc.length !== 3) {
+            alert("Please enter a 3-digit CVV code");
             return;
         }
 
