@@ -41,7 +41,7 @@ export default function App() {
     <div className="home">
       <div className="banner">
         <SimpleImageSlider
-          width={1270}
+          width={1408}
           height={500}
           images={sliderImages}
           showNavs={true}

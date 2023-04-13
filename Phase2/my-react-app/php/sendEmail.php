@@ -1,4 +1,3 @@
-
 <?php
 header("Access-Control-Allow-Origin: http://localhost:3000");
 header("Access-Control-Allow-Methods: POST");
@@ -27,7 +26,7 @@ if(isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) &&
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'urmi.kothari@sigmainfo.net';
-        $mail->Password = '';
+        $mail->Password = 'Yashdayama@2808';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
@@ -48,7 +47,6 @@ if(isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) &&
 else{
     echo 'Message could not be sent no data.';
 }
-
 
 
 
