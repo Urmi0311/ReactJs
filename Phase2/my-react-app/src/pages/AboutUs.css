@@ -184,7 +184,7 @@
 }
 
 .read-more-button {
-    background-color: blue;
+    background-color: violet;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -248,3 +248,6 @@
     line-height: 1.5;
 }
 
+a{
+    text-decoration:none;
+}
