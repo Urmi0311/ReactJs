@@ -56,6 +56,11 @@ export default class PaymentForm extends React.Component {
             alert("Please enter a 3-digit CVV code");
             return;
         }
+        if (number.length !== 16) {
+            alert("Please enter a 16-digit card number");
+            return;
+        }
+
 
         this.setState({isPaid: true});
     };
