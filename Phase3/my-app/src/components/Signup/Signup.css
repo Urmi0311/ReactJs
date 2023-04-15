@@ -1,0 +1,25 @@
+.cont1{
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #9900ff, #cd80ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox{
+    min-width: 400px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.cont1 input{
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    padding: 10px 15px;
+    color: #000;
+}
