@@ -36,7 +36,7 @@ function CreateUser() {
 
         let nameReg = /^[A-Za-z\s]+$/;
         let emailReg = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
-        let mobileReg = /^[0-9]{10}$/;
+        let mobileReg =/^[1-9][0-9]{9}$/;
 
         if (!nameReg.test(name)) {
             setError('Name not valid!!!');
@@ -58,20 +58,18 @@ function CreateUser() {
 
     return (
         <>
-            <div className={'title'}><h2>Contact Us</h2></div>
+        <div className={'create-container'}>
+            <div className={'title'}><h2>Contact Details</h2></div>
             <div className="form-container">
                 <div className="form-card">
                     <div className="form-div form-center">
-                        {/* form content */}
-
-
                     <form onSubmit={handleSubmit}>
                         <div className="form-table">
                             <table cellSpacing="10">
                                 <tbody>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Name :</label>
+                                        <label className={'label-text'}>Name </label>
                                     </th>
                                     <td>
                                         <input type="text" name="name"
@@ -83,7 +81,7 @@ function CreateUser() {
                                 </tr>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Mobile :</label>
+                                        <label className={'label-text'}>Mobile </label>
                                     </th>
                                     <td>
                                         <input type="number" name="mobile"
@@ -95,7 +93,7 @@ function CreateUser() {
                                 </tr>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Email :</label>
+                                        <label className={'label-text'}>Email </label>
                                     </th>
                                     <td>
                                         <input type="email" name="email"
@@ -123,6 +121,7 @@ function CreateUser() {
                     </form>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )

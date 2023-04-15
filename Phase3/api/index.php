@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 header('Access-Control-Allow-Origin: *');
-//header('Access-Control-Allow-Origin: *');
+
 header('Access-Control-Allow-Headers: *');
 header('Access-Control-Allow-Methods: *');
 
@@ -12,8 +12,7 @@ header('Access-Control-Allow-Methods: *');
 $objDb = new DbConnect;
 
 $conn = $objDb->connect();
-// var_dump($conn);
-// exit;
+
 
 $method = $_SERVER['REQUEST_METHOD'];
 
@@ -43,7 +42,7 @@ switch ($method) {
 
             $name = $user->name;
             $email = $user->email;
-            $mobile = !empty($user->mobile) ? $user->mobile : '1234567890';
+            $mobile = !empty($user->mobile) ? $user->mobile : '9737832874';
 
             $stm->bindParam(':name', $name);
             $stm->bindParam(':email', $email);
@@ -66,13 +65,13 @@ switch ($method) {
         $user = json_decode(file_get_contents('php://input'));
 
 
-        $sql = "UPDATE `contact` SET `id`=:id,`name`=:name,`email`=:email,`mobile`=:mobile WHERE `id`=:id";
+        $sql = "UPDATE `contact` SET `id`=:id,`name`=:name,`email`= :email,`mobile`=:mobile WHERE `id`=:id";
         $stm = $conn->prepare($sql);
 
         $id = $user->id;
         $name = $user->name;
         $email = $user->email;
-        $mobile = !empty($user->mobile) ? $user->mobile : '1234567890';
+        $mobile = !empty($user->mobile) ? $user->mobile : '9737832874';
 
         $stm->bindParam("id", $id);
         $stm->bindParam(':name', $name);

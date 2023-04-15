@@ -40,9 +40,9 @@ function Home(props){
                         <h1>React CRUD Operation using PHP API and ReactJs</h1>
                         <nav className="nav-menu">
                             <ul className="nav-list">
-                                <li className="nav-item">
+                                <div className="nav-item">
                                     <Link to={"/create"} className="nav-link">Create Contact</Link>
-                                </li>
+                                </div>
                             </ul>
                         </nav>
                         <ListUser />

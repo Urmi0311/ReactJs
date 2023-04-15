@@ -86,7 +86,7 @@ function EditUser() {
 
     return (
         <>
-            <div className={'title'}><h2>Update Contact Us</h2></div>
+            <div className={'title'}><h2>Update Contact </h2></div>
             <div className="container">
                 <div className="form-div">
                     <form onSubmit={handleSubmit}>
@@ -95,7 +95,7 @@ function EditUser() {
                                 <tbody>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Name :</label>
+                                        <label className={'label-text'}>Name </label>
                                     </th>
                                     <td>
                                         <input type="text" name="name"
@@ -108,7 +108,7 @@ function EditUser() {
                                 </tr>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Mobile :</label>
+                                        <label className={'label-text'}>Mobile </label>
                                     </th>
                                     <td>
                                         <input type="number" name="mobile"
@@ -121,7 +121,7 @@ function EditUser() {
                                 </tr>
                                 <tr>
                                     <th>
-                                        <label className={'label-text'}>Email :</label>
+                                        <label className={'label-text'}>Email </label>
                                     </th>
                                     <td>
                                         <input type="email" name="email"

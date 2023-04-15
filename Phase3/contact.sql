@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 15, 2023 at 04:09 PM
+-- Generation Time: Apr 16, 2023 at 01:39 AM
 -- Server version: 8.0.32-0ubuntu0.20.04.2
 -- PHP Version: 7.4.33
 
@@ -32,7 +32,7 @@ CREATE TABLE `contact` (
   `id` int NOT NULL,
   `name` varchar(30) NOT NULL,
   `email` varchar(30) NOT NULL,
-  `mobile` int NOT NULL
+  `mobile` bigint NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
@@ -40,7 +40,13 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`id`, `name`, `email`, `mobile`) VALUES
-(27, 'urmi kothari', 'urmiiii@gmail.com', 1234567889);
+(27, 'urmi kothari', 'urmiiii@gmail.com', 8766444444),
+(28, 'urmi kothariooooo', 'urumiiii@gmail.comnmmmmmm', 9737832874),
+(30, 'urmi kothariii', 'urmiiii@gmail.com', 9743210333),
+(31, 'tirthhhhhh', 'tttths@gmail.com', 1234567864),
+(32, 'urmi kddothari', 'tths@gmail.com', 1234567899),
+(33, 'admin', 'urmi12@gmail.com', 1234568765),
+(34, 'urmi kothari', 'urmi12@gmail.com', 7654323433);
 
 --
 -- Indexes for dumped tables
@@ -60,7 +66,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
