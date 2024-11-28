@@ -20,7 +20,7 @@ function App() {
                     </ul>
                 </div>
             </nav>
-            <div className="img"></div>
+            <div className="img" />
             <div className="center">
                 <div className="title">Create Amazing Website</div>
                 <div className="sub_title">Pure HTML & CSS Only</div>
